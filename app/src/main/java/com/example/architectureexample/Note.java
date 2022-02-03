@@ -22,22 +22,27 @@ public class Note {
     }
 
     public void setId(int id) {
+
         this.id = id;
     }
 
     public int getId() {
+
         return id;
     }
 
     public String getTitle() {
+
         return title;
     }
 
     public String getDescription() {
+
         return description;
     }
 
     public int getPriority() {
+
         return priority;
     }
 }
